@@ -24,6 +24,11 @@ h2{
     --primary-color: #8B5CF6;    
 }
 
+hr {
+    margin: 2rem 0rem
+}
+
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -68,5 +73,16 @@ body{
 /* h1{
     color: var(--primary-color)
 } */
+
+/** Lists **/
+
+.list-non-bullet {
+    list-style : none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
 
 
