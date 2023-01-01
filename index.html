@@ -1,212 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Component Library</title>
-
-    <!--This is third way to do CSS- external link-->
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Ayushi Pandey</title>
     <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-  </head>
-  <body>
-
-    <!-- CSS way 1
-    <style>
-        body {
-            color: red;
-        }
-    </style> -->
-
-
-
-    <!-- <h1 id = "lib-header">Hey ! Welcome to Ayushi Pandey's component library</h1>  -->
-    <h1>Hey ! Welcome to Ayushi Pandey's component library</h1> 
-    <!-- <p class = "para">I am here to showcase my portfolio to you.</p> -->
-    <p>I am here to showcase my portfolio to you.</p>
-
-    
-
-    <hr>
-
-    <!-- second way of CSS
-    <h1 style = "color: red" >This is the biggest heading</h1> -->
-
-
-    
-    <h2>@typography</h2>
-
-    <p>This paragraph will have <strong>bold</strong> text</p>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>Normal text</p>
-    <h6>Smallest heading of all</h6>
-    <small>This is a smaller text</small>
-
-    <hr>
-
-    <h2>@Container</h2>
-
-    <h3>Fluid container</h3>
-    <!-- <div class = "para">This is a fluid container and it will go till the end of page. -->
-    <div class = "container container-fluid">This is a fluid container and it will go till the end of page.
-    </div>
-
-
-    <h3>Center container</h3>
-    <div class = "container container-center">This is a specified container and it will go till the specified width.</div>
-    <!-- <div class = "para">This is a specified container and it will go till the specified width.</div> -->
-
-    <hr>
-
-    <h2>@Links</h2>
-
-    <!-- <a href="https://google.com
-    " target="_blank">Google</a> -->
-
-    <a class = "link link-primary" href = "/">Primary link</a>
-    <a class = "link link-secondary" href = "/" >Secondary link</a>
-
-    <hr>
-
-    <h2>@Lists</h2>
-
-    <h3>unodered lists</h3>
-
-    <p>This lists will not contain bullet</p>
-
-    <ul class = "list-non-bullet">
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-
-    <ul class="list-non-bullet">
-        <li class = "list-item-inline">inline item one</li>
-        <li class = "list-item-inline">inline item two</li>
-        <li class = "list-item-inline">inline item three</li>
-    </ul>
-
-
-    <h3>reverse ordered list</h3>
-
-    <ol reversed>
-        <li>plant</li>
-        <li>tree</li>
-        <li>shrubs</li>
-        <li>herbs</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-
-    <!-- <nav>
-        <div>IamBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>              
-            </li>
-
-            <li>
-                <a href="/">products</a>
-            </li>
-
-            <li>
-                <a href="/">about</a>
-            </li>
-        </ul>
-    </nav> -->
+    <!-- <h1>Ayushi Pandey</h1> -->
 
     <nav class="navigation container">
-        <div class = "nav-brand">IamBrand</div>
+        <div class = "nav-brand">IamDeveloper</div>
         <ul class = "list-non-bullet nav-pills">
             <li class = list-item-inline>
-                <a class = "link link-active" href="/">home</a>              
+                <a class = "link link-active" href="/" target = "_blank">home</a>              
             </li>
 
             <li class = list-item-inline>
-                <a class = "link" href="/">products</a>
+                <a class = "link" href="projects.html" target = "_blank">projects</a>
             </li>
 
             <li class = list-item-inline>
-                <a class = "link" href="/">about</a>
+                <a class = "link" href="blogs.html" target = "_blank">blogs</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2>@header</h2>
-
-    <!-- <header>
-        <img src="Images/JS.svg" alt="JavaScript Image">
-        <h1>heading inside hero</h1>
-
-        <img src = "https://masterblogging.com/wp-content/uploads/2019/11/Pinch-of-Yum-Blog.png" alt = "Food image" >
-    </header> -->
-
     <header class = "hero">
         <img class= "hero-img" src="Images/JS.svg" alt="JavaScript Image">
         <h1 class ="hero-header">Ayushi the <span style = color:var(--primary-color)>Web Developer</span> </h1>
-
-        <!-- <img src = "https://masterblogging.com/wp-content/uploads/2019/11/Pinch-of-Yum-Blog.png" alt = "Food image" > -->
     </header>
 
-    <hr>
-
-    <h2>@section</h2>
-
-    
-    <!-- <section>
-        <h3>@white section</h3>
-        <p>This will have white background</p>    
+    <section class="section ow">
+        <div class = "container container-center">
+            <h1>technologies</h1>
+            <p>I am familiar with HTML , CSS and basics of JavaScript. I am good at C++ Programming. I also have good knowledge of SQL commands and sharp debugging skills.  </p>
+        </div>    
     </section>
-
-    <section>
-        <h3>@grey section</h3>
-        <p>This will have grey background</p>    
-    </section> -->
 
     <section class = "section">
         <div class = "container container-center">
-        <h1>white section</h1>
-        <p>HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables. As the title suggests, this article will give you a basic understanding of HTML and its functions.</p> 
+        <h1>projects</h1>
+        <p>I like to showcase my work, and thus you can see my projects hosted online </p> 
+        <a class = "link link-primary" href = "/">See Projects</a>
         </div>   
     </section>
 
     <section class="section ow">
         <div class = "container container-center">
-            <h1>grey section</h1>
-            <p>HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables. As the title suggests, this article will give you a basic understanding of HTML and its functions.</p>
-        </div>
-            
+        <h1>blogs</h1>
+        <p>I am interested in writing motivational blogs as it helps to understand the things from a different perspective and helps you to calm down your racing negative thoughts. </p> 
+        <a class = "link link-secondary" href = "/">Browse Blogs</a>
+        </div>   
     </section>
 
-    <hr>
-
-    <h2>@footer</h2>
-
-    <!-- <footer>
-        <div>This containes placeholder tag div</div>
-        <ul>
-            <li>socialone</li>
-            <li>socialtwo</li>
-            <li>socialthree</li>
-        </ul>
-    </footer> -->
-
     <footer class ="footer">
-        <div class = " footer-header">Some small heading inside footer</div>
+        <div class = " footer-header">Social media presence</div>
         <ul class = "social-links list-non-bullet">
-            <li class = "list-item-inline"><a class ="link" href ="/">socialone</a></li>
-            <li class = "list-item-inline"><a class ="link" href ="/">socialtwo</a></li>
-            <li class = "list-item-inline"><a class ="link" href ="/">socialthree</a></li>
+            <li class = "list-item-inline"><a class ="link" href ="https://github.com/ayushipandey01" target = "_blank">github</a></li>
+            <li class = "list-item-inline"><a class ="link" href ="https://www.linkedin.com/in/ayushi-pandey-1a4775149/" target = "_blank">linkedin</a></li>
+            <li class = "list-item-inline"><a class ="link" href ="https://www.instagram.com/ayushi_pandey1/ "target = "_blank">instagram</a></li>
         </ul>
     </footer>
 
@@ -225,19 +80,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <div style = "height: 60vh;"></div> -->
-
-  </body>
+    <!-- <div style="height : 60vh;"></div> -->
+    
+</body>
 </html>

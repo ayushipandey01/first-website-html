@@ -24,7 +24,7 @@ h2{
     /* --primary-color: #8B5CF6;  */
     --primary-color:#6D28D9; 
     --grey-color: #64748B; 
-    --offwhite-section: #E4E4E7; 
+    --offwhite-section: #E5E5E5; 
 }
 
 hr {
@@ -142,7 +142,7 @@ body{
 
 .section h1 {
     text-align: center;
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 .ow {
@@ -159,9 +159,10 @@ body{
     border-top-right-radius: 1rem;
 }
 
-/* .footer .footer-header {
-    color: white;
-} */
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
 
 .footer .link {
     color: white;    
