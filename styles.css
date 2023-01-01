@@ -23,7 +23,8 @@ h2{
 :root {
     /* --primary-color: #8B5CF6;  */
     --primary-color:#6D28D9; 
-    --grey-color: #64748B;  
+    --grey-color: #64748B; 
+    --offwhite-section: #E4E4E7; 
 }
 
 hr {
@@ -130,3 +131,21 @@ body{
     padding-top: 1rem;
     color: var(--grey-color);
 }
+
+/** Section **/
+
+.section{
+    padding: 2rem;
+}
+
+
+.section h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow {
+    background-color: var(--offwhite-section);
+}
+
+
