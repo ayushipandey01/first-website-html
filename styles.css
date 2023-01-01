@@ -34,6 +34,7 @@ hr {
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 /** Container level CCS **/
@@ -169,3 +170,5 @@ body{
 .footer ul {
     padding-inline-start: 0px;
 }
+
+
