@@ -20,6 +20,10 @@ h2{
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+:root {
+    --primary-color: #8B5CF6;    
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -36,4 +40,33 @@ body{
     max-width: 600px;
     margin: auto;
 }
+
+
+/** Links **/
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem ;
+}
+.link-primary {
+    /* color: var(--primary-color); */
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    /* background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white; */
+
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/* h1{
+    color: var(--primary-color)
+} */
+
 
