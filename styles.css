@@ -21,7 +21,9 @@ h2{
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #8B5CF6;    
+    /* --primary-color: #8B5CF6;  */
+    --primary-color:#6D28D9; 
+    --grey-color: #64748B;  
 }
 
 hr {
@@ -111,4 +113,20 @@ body{
     font-weight: bold;
 }
 
+/**Header**/
 
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display:block;
+    margin:auto;
+}
+
+.hero .hero-header{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--grey-color);
+}
