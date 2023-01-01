@@ -119,6 +119,7 @@ body{
 
 .hero{
     padding: 2rem;
+    padding-top: 2rem;
 }
 
 .hero .hero-img {
