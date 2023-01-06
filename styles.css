@@ -134,6 +134,12 @@ body{
     color: var(--grey-color);
 }
 
+.hero-header{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--grey-color);
+}
+
 /** Section **/
 
 .section{

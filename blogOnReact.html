@@ -5,10 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog-React</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-    <p></p>
+    <nav class="navigation container">
+        <div class="nav-brand">IamDeveloper</div>
+        <ul class="list-non-bullet nav-pills">
+          <li class="list-item-inline">
+            <a class="link" href="/" target="_blank">home</a>
+          </li>
+  
+          <li class="list-item-inline">
+            <a class="link" href="projects.html" target="_blank">projects</a>
+          </li>
+  
+          <li class="list-item-inline">
+            <a class="link link-active" href="blogs.html" target="_blank"
+              >blogs</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+    <h1 class="hero-header">
+        intro to  <span style="color: var(--primary-color)">ReactJS</span>
+    </h1>
+
+    <section class="section ow">
+        <div class="container container-center">
+          <p>
+            <h2 class = "hero-header" style="color:black">Declarative</h2>
+            React adheres to the declarative programming paradigm. Developers design views for each state of an application, and React updates and renders components when data changes. This is in contrast with imperative programming.
+
+            <h2 class = "hero-header" style="color:black">Components</h2>
+            React code is made of entities called components. These components are reusable and must be formed in the SRC folder following the Pascal Case as its naming convention (capitalize camelCase). Components can be rendered to a particular element in the DOM using the React DOM library. 
+
+            <h2 class = "hero-header" style="color:black">Higher Order Components</h2>
+            Higher order components (HOCs) are functions that take a component as an argument and return a new component.They can be used to add additional functionality to a component without modifying the original component.
+
+            HOCs are a pattern that is often used in React to reuse code and abstract logic. For example, an HOC might be used to add error handling or data loading functionality to a component.
+
+            One common use case for HOCs is to wrap a component with a higher-level component that provides additional functionality. For example, an HOC might be used to wrap a component with a component that adds a loading spinner while data is being fetched.
+
+            HOCs can be a powerful tool for organizing and reusing code in a React application, and are often used to abstract complex logic or add additional functionality to multiple components.
+          </p>
+        </div>
+      </section>
+
+      <footer class ="footer">
+        <div class = " footer-header">Social media presence</div>
+        <ul class = "social-links list-non-bullet">
+            <li class = "list-item-inline"><a class ="link" href ="https://github.com/ayushipandey01" target = "_blank">github</a></li>
+            <li class = "list-item-inline"><a class ="link" href ="https://www.linkedin.com/in/ayushi-pandey-1a4775149/" target = "_blank">linkedin</a></li>
+            <li class = "list-item-inline"><a class ="link" href ="https://www.instagram.com/ayushi_pandey1/ "target = "_blank">instagram</a></li>
+        </ul>
+    </footer>
     
 </body>
 </html>
